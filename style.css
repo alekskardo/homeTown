@@ -1,0 +1,95 @@
+
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.hero-section {
+    background-image: url(../images/belgrade.jpg);
+    background-size: cover;
+    padding: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.action-section {
+    background-color: hsla(112, 83%, 45%, 0.081);
+    margin-top: -23px;
+}
+.title-card {
+    font-size: 50px;
+    background-color: rgba(197, 22, 22, 0.5);
+    color: #fff;
+    padding: 3px;
+    border-radius: 10px;
+}
+.info-card {
+    font-size: 20px;
+    background-color: rgba(107, 92, 92, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.action-para {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.img-card {
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    margin: auto;   
+}
+.action-card {
+    width:300px
+}
+
+.hedding {
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding: 30px 40px;
+    color: #457B9D;
+}
+.guide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    height:250px ;
+    background-color: #A8DADC;
+    border-radius: 8px;
+    border-bottom: 4px solid black;
+    margin: 50px auto;
+}
+
+.guide-img {
+    width: 180px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+#guide-profile {
+    margin:10px;
+}
+.guide-paragraph {
+    font-style: italic;
+    padding:5px;
+}
